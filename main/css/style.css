@@ -1,0 +1,50 @@
+:root {
+    --blanco: #ffffff  ;
+    --oscuro: #212121;
+    -primario: #FFC107;
+    --secundario:  #14a9fe ;
+    --gris: #757575;
+
+}
+html {
+    font-size: 65%;
+}
+
+body {
+    font-size: 16px;
+    /* <---dada esa relaciuon ---> 1rem = 10pc*/
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <auto>;
+    font-style: normal
+
+}
+
+.titulo {
+    text-align: center;
+    font-size: 3.8rem;
+
+}
+
+.titulo span {
+    font-size: 1rem;
+}
+.fondonav {
+    background-color:  var(--secundario) ;
+}
+.contenedor {
+    width: 120rem;
+    margin: 0   auto;
+}
+
+.navprincipal  {
+    padding: 1rem;
+    
+}
+
+
+.navprincipal a{
+    color: var(--blanco);
+    text-decoration: none;
+}
+
